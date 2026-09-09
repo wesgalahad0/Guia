@@ -5,10 +5,30 @@
 
 body {
     font-family:monospace;
-    background-color: black;
-    color: #00ff00;
+    background-color: white;
+    color: black;
 }
 
-hr {
-    border: 1px solid #00ff00;
+
+.GrupoComandos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.cartaoComando {
+    margin-inline: 10px;
+    width: calc(25% - 15px);
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 5px;
+    transition: 150ms;
+    background-color: rgba(255, 68, 0, 0.288);
+}
+
+.cartaoComando:hover {
+    scale: 110%;
+    background-color: rgb(238, 85, 85);
+    transform: translateY(-5%);
 }
