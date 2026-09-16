@@ -84,6 +84,7 @@ main {
 
     .cartaoComando {
         width: calc(50vw - 30px);
+        min-width: 95vw;
     }
 
     .iconeComando {
