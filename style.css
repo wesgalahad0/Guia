@@ -1,14 +1,25 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin:0px;
+  padding:0px;
   box-sizing: border-box;
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     color: black;
     font-family: monospace;
     font-size: x-large;
+    padding: 10px; 
+}
+
+
+header h1{
+    text-align: center;
+    background-color:aquamarine;
+}
+
+main h2{
+     background-color: aquamarine;
 }
 
 main {
@@ -27,26 +38,35 @@ main {
 
 .cartaoComando {
   border: 1px solid #ff0000;
+  background-color: antiquewhite;
   border-radius: 20px;
-  padding: 10px 15px;
+  padding: 15px 10px;
   transition: 150ms;
   gap: 10px;
   min-width: 85vw;
   min-height: 20vh;
 }
 
-.icone{
-    height: 30px;
-    width: 30px;
+.iconeComando{
+    height: 40px;
+    width: 40px;
     fill: aliceblue;
-    stroke: none;
-    stroke-width: 10px;
+    stroke: red;
+    stroke-width: 5px;
+    
 }
 
 .cartaoComando:hover{
         scale: 100%;
         background-color: rgb(238, 85, 85);
         transform: translateY(-5%);   
+    }
+
+    footer {
+        background-color: aquamarine;
+        text-align: center;
+        border-radius: 8px;
+        margin: 5px;
     }
   
 
@@ -66,9 +86,9 @@ main {
         width: calc(50vw - 30px);
     }
 
-    .icone {
-        height: 40px;
-        width: 40px;
+    .iconeComando {
+        height: 60px;
+        width: 60px;
     }
 
 }
