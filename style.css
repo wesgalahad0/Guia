@@ -68,6 +68,25 @@ main {
         border-radius: 8px;
         margin: 5px;
     }
+
+
+    body.fundoEscuro {
+        background-color: #121212;
+        color: black;
+    }
+
+    body.fundoEscuro header h1,
+    body.fundoEscuro main h2,
+    body.fundoEscuro footer {
+        background-color: #005b41;
+        color: white;
+        stroke: black;
+    }
+
+    body.fundoEscuro .cartaoComando:hover {
+        background-color: #cc4444;
+    }
+
   
 
 @media screen and (min-width: 600px) {
